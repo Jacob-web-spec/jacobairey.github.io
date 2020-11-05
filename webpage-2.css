@@ -1,0 +1,38 @@
+body { font-family: 'Delius', cursive; }
+body { 
+   background-color: #881088;
+   color: #000000; 
+} 
+header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+#nav-labs ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+header {
+   font-family: 'Delius', sans-serif;
+   border-bottom: 0.3vw solid #07B05B;
+}
+#logo { 
+   height: 3vh; 
+}
+#nav-labs ul {
+   padding: 2vh 2vw;
+   border: 0.5vw solid #980505;
+   border-radius: 0.5vw;
+   list-style-type: none;
+}
+footer {
+   margin-top: 1vh;
+   border-top: 0.2vw solid  #07B05B;
+}
+.panel {
+   border: 0.1vw solid #e8e6e6;
+   border-radius: 0.5vw;
+   padding: 1vw;
+   margin: 1vh 0;
+}
